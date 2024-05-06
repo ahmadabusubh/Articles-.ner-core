@@ -1,0 +1,17 @@
+C:\Users\ASUS\source\repos\Articles\Articles.data\bin\Debug\net6.0\Articles.data.deps.json
+C:\Users\ASUS\source\repos\Articles\Articles.data\bin\Debug\net6.0\Articles.data.runtimeconfig.json
+C:\Users\ASUS\source\repos\Articles\Articles.data\bin\Debug\net6.0\Articles.data.dll
+C:\Users\ASUS\source\repos\Articles\Articles.data\bin\Debug\net6.0\Articles.data.pdb
+C:\Users\ASUS\source\repos\Articles\Articles.data\bin\Debug\net6.0\Articles.core.dll
+C:\Users\ASUS\source\repos\Articles\Articles.data\bin\Debug\net6.0\Articles.core.pdb
+C:\Users\ASUS\source\repos\Articles\Articles.data\obj\Debug\net6.0\Articles.data.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Articles\Articles.data\obj\Debug\net6.0\Articles.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\Articles\Articles.data\obj\Debug\net6.0\Articles.data.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Articles\Articles.data\obj\Debug\net6.0\Articles.data.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Articles\Articles.data\obj\Debug\net6.0\Articles.data.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Articles\Articles.data\obj\Debug\net6.0\Articles.data.csproj.CopyComplete
+C:\Users\ASUS\source\repos\Articles\Articles.data\obj\Debug\net6.0\Articles.data.dll
+C:\Users\ASUS\source\repos\Articles\Articles.data\obj\Debug\net6.0\refint\Articles.data.dll
+C:\Users\ASUS\source\repos\Articles\Articles.data\obj\Debug\net6.0\Articles.data.pdb
+C:\Users\ASUS\source\repos\Articles\Articles.data\obj\Debug\net6.0\Articles.data.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\Articles\Articles.data\obj\Debug\net6.0\ref\Articles.data.dll

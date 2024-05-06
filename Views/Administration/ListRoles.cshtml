@@ -1,0 +1,56 @@
+﻿@model IEnumerable<IdentityRole>
+
+@{
+    ViewBag.Title = "All Roles";
+    Layout = "~/Pages/_LayoutAdmain.cshtml"; // Assuming you have a layout for admin pages
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">All Roles</h1>
+
+    @if (Model.Any())
+    {
+        <div class="row">
+            <a class="btn btn-primary m-3 " style="width:auto" asp-controller="Administration" asp-action="CreateRole">
+                Add new Role
+
+            </a>
+
+
+
+            @foreach (var role in Model)
+            {
+                <div class="col-md-4 mb-3">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary text-white">
+                            Role ID: @role.Id
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">@role.Name</h5>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-info" asp-action="EditRole" asp-controller="Administration"
+                               asp-route-id="@role.Id">Edit</a>
+                            <a class="btn btn-info" asp-action="DeleteRole" asp-controller="Administration"
+                               asp-route-id="@role.Id">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="card">
+            <div class="card-header">
+                No roles found
+            </div>
+            <div class="card-body">
+                <p class="card-text">Create a role to get started.</p>
+                <a class="btn btn-primary" asp-controller="Administration" asp-action="CreateRole">
+                    Create Role
+                </a>
+            </div>
+        </div>
+    }
+</div>

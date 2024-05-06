@@ -1,0 +1,46 @@
+﻿@using Articles.viewModels;
+@model List<UserRoleViewModel>
+
+@{
+    Layout = "~/Pages/_LayoutAdmain.cshtml"; // Assuming you have a layout for admin pages
+
+
+}
+
+
+@{
+
+    var roleId = ViewBag.roleId;
+}
+
+<form method="post">
+
+<div class="card">
+<div class="card-header">
+<h2> Add or remove User from this role</h2>
+
+
+</div>
+<div class="card-body">
+
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <div>
+                    <input type="checkbox" asp-for="@Model[i].IsSelected" />
+                    <label asp-for="@Model[i].IsSelected">@Model[i].UserName</label>
+                    <input type="hidden" asp-for="@Model[i].UserId" />
+                </div>
+            }
+
+
+</div>
+<div class="card-footer">
+
+    <input type="submit" value="Update" class="btn btn-primary" style="width:auto"/>
+            <a asp-action="EditRole" asasp-route-id="@roleId"/>
+</div>
+
+
+</div>
+
+</form>
